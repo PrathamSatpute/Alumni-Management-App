@@ -1,0 +1,20 @@
+/* Add your custom styles here */
+.achievement-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .achievement-image {
+    width: auto; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    align-items: center;
+  }
+  
+  ion-item {
+    padding: 10px 0;
+  }
+  
+  ion-note {
+    font-size: 0.8em;
+  }
+  

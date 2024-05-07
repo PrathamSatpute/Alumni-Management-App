@@ -1,17 +1,17 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 3
+      Achievements
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item *ngFor="let achievement of achievements" class="achievement-item">
+      <img [src]="achievement.image" alt="{{ achievement.title }}" class="achievement-image">
+      <!-- <ion-label>{{ achievement.title }}</ion-label> -->
+      <ion-note slot="end">{{ achievement.date }}</ion-note>
+    </ion-item>
+  </ion-list>
 </ion-content>

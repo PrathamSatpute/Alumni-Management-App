@@ -1,0 +1,20 @@
+/* Add your custom styles here */
+.event-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .event-image {
+    width: auto; /* Adjust width as needed */
+    height: 300px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin to the right of the image */
+  }
+  
+  ion-item {
+    padding: 10px 0;
+  }
+  
+  ion-note {
+    font-size: 0.8em;
+  }
+  
